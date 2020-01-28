@@ -99,7 +99,7 @@ items = Pocket.links(options)
 date = Date.today.iso8601
 reading_list = {
   date: date,
-  time: Time.now.utc.to_s,
+  created_at: Time.now.utc.to_s,
   options: options,
   items: items
 }
